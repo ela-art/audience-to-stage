@@ -1,0 +1,19 @@
+# Data files — not committed to keep repo clean and confidential
+data_raw/tripadvisor/*.csv
+data_raw/tourism/*.pdf
+data_raw/tourism/*.csv
+data_processed/*.csv
+data_manual/*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Tableau temp files
+*.twbx.lock
+*.hyper
+
+# OS
+.DS_Store
+Thumbs.db
