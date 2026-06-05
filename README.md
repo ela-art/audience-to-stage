@@ -107,6 +107,10 @@ MySQL · Tableau · Jupyter Notebook · GitHub
 - What is the optimal show design brief for each 
   seasonal audience window?
 
+## Data Limitations
+
+**Gap de datos turísticos 2020:** tourism_stats no contiene datos de visitantes para 2020 debido al cierre de fronteras de Dubai durante la pandemia COVID-19. Las reseñas de ese año están presentes pero sin contexto turístico asociado. Fuente: DET Annual Visitor Report 2024.
+
 ## Status
 
 Data collection and pipeline complete.  
