@@ -243,8 +243,8 @@ Tables:   dim_venue, fact_reviews, tourism_stats
 | Competition profiles | Complete |
 | MySQL star schema | Complete |
 | Enrichment (sentiment, language, dates) | Complete |
-| Tableau dashboard | In progress |
-| Written analysis and conclusions | Pending |
+| Tableau dashboard | Complete |
+| Written analysis and conclusions | Complete |
 
 ---
 
