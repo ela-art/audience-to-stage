@@ -114,7 +114,11 @@ def create_tables(cursor):
             nivel_habilidad     VARCHAR(50),
             paleta_vestuario    VARCHAR(200),
             diseno_vestuario    VARCHAR(200),
-            estilo_musical      VARCHAR(200)
+            estilo_musical      VARCHAR(200),
+            venue_name          VARCHAR(150),
+            producer_relation   VARCHAR(50),
+            audience_capacity   INT,
+            notes               TEXT
         ) ENGINE=InnoDB;
     """)
 
@@ -169,7 +173,8 @@ def load_dim_venue(cursor):
             estilo_show, estilo_movimiento, registro_corporal,
             relacion_publico, carga_erotica, referente_cultural,
             nivel_habilidad, paleta_vestuario, diseno_vestuario,
-            estilo_musical
+            estilo_musical, venue_name, producer_relation,
+            audience_capacity, notes
         ) VALUES (
             %s, %s, %s, %s,
             %s, %s, %s,
@@ -180,7 +185,8 @@ def load_dim_venue(cursor):
             %s, %s, %s,
             %s, %s, %s,
             %s, %s, %s,
-            %s
+            %s, %s, %s,
+            %s, %s
         )
     """
 
@@ -214,6 +220,10 @@ def load_dim_venue(cursor):
             none_if_nan(row.get("paleta_vestuario")),
             none_if_nan(row.get("diseno_vestuario")),
             none_if_nan(row.get("estilo_musical")),
+            none_if_nan(row.get("venue_name")),
+            none_if_nan(row.get("producer_relation")),
+            none_if_nan(row.get("audience_capacity")),
+            none_if_nan(row.get("notes")),
         ))
         rows += 1
 
