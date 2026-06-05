@@ -10,6 +10,9 @@ __pycache__/
 *.pyc
 .env
 
+# Session utility scripts (not part of the reproducible pipeline)
+scripts/_*.py
+
 # Tableau temp files
 *.twbx.lock
 *.hyper
