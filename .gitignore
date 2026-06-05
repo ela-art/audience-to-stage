@@ -13,6 +13,7 @@ __pycache__/
 # Tableau temp files
 *.twbx.lock
 *.hyper
+data/tableau_exports/*.csv
 
 # OS
 .DS_Store
