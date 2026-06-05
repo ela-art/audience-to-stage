@@ -35,6 +35,7 @@ The hypothesis is that tourism data is not just a market sizing tool. It is a de
 | Analysis exports | SQL queries · CSV |
 | Visualization | Tableau Desktop Public |
 | Version control | Git · GitHub |
+| AI-assisted development | Claude by Anthropic |
 
 Python environment: Anaconda 3 · Windows
 
