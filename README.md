@@ -1,9 +1,8 @@
 # audience-to-stage
 
-> **Can the rotation of tourism in a city inform the design of a live entertainment show?**  
-> How far? In what ways? What would that be worth?
+> **¿Puede la rotación turística de una ciudad influir en el diseño artístico de un espectáculo en vivo — hasta el nivel de detalle?**
 
-A data analysis portfolio project exploring the relationship between Dubai's tourism cycles and the design, perception, and competitive positioning of live entertainment shows.
+A data analysis portfolio project exploring whether Dubai's tourism rotation — by nationality, season, and visitor profile — should inform artistic decisions in live entertainment: repertoire, sensory intensity, cultural references, audience relationship, and costume design.
 
 ---
 
@@ -11,9 +10,9 @@ A data analysis portfolio project exploring the relationship between Dubai's tou
 
 Live entertainment shows are typically designed once and run unchanged for months or years. Yet the audience changes constantly — by nationality, travel purpose, group composition, cultural background, and season.
 
-This project asks: **if we can measure and model that rotation, can we use it to make better artistic and programming decisions?**
+This project asks: **can we measure the rotation of nationalities, seasons, and visitor profiles in Dubai — and use that data to make specific artistic decisions in a live show?**
 
-The hypothesis is that tourism data is not just a market sizing tool. It is a design brief.
+The hypothesis is that tourism data is not just a market sizing tool. It is a design brief — down to the detail of which music to play, how immersive the staging should be, which cultural references to include or avoid, and how the performers relate to the audience on any given night.
 
 | Artistic Element | Data Input | Decision |
 |---|---|---|
